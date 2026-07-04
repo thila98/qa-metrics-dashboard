@@ -60,7 +60,7 @@ col1, col2, col3, col4 = st.columns(4)
 col1.metric("Total Tests", summary["total"])
 col2.metric("Passed", summary["passed"])
 col3.metric("Failed", summary["failed"])
-col4.metric("Pass Rate", f"{summary[chr(39)+'pass_rate'+chr(39)]}%")
+col4.metric("Pass Rate", f"{summary['pass_rate']}%")
 
 st.divider()
 
@@ -90,6 +90,7 @@ st.subheader("Failed Tests")
 failed_df = get_failed_tests(df)
 
 if len(failed_df) == 0:
+    st.success("No failed tests in selected sprint!")
 else:
     st.dataframe(failed_df, use_container_width=True)
 
