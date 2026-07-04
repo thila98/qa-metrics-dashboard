@@ -28,7 +28,7 @@ st.set_page_config(
 )
 
 st.title("🧪 QA Metrics Dashboard")
-st.markdown("Interactive test quality metrics — upload your test results CSV to get started.")
+st.markdown("Interactive test quality metrics - upload your test results CSV to get started.")
 st.divider()
 
 st.sidebar.header("Data Source")
@@ -95,4 +95,4 @@ else:
     st.dataframe(failed_df, use_container_width=True)
 
 st.divider()
-st.caption("QA Metrics Dashboard — Built by Thilangi Uththara De Silva")
+st.caption("QA Metrics Dashboard - Built by Thilangi Uththara De Silva")

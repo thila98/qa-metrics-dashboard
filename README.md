@@ -10,20 +10,20 @@ https://thila98-qa-metrics-dashboard-appmain-kphsza.streamlit.app/
 
 Takes a CSV of test results as input and generates four interactive charts:
 
-- Pass vs Fail by Sprint — quality trend over time
-- Test Coverage by Category — balance of Functional, Negative, Security etc
-- Pass vs Fail by Feature Area — which features have the most defects
-- Average Execution Time by Feature — performance hotspots
+- Pass vs Fail by Sprint - quality trend over time
+- Test Coverage by Category - balance of Functional, Negative, Security etc
+- Pass vs Fail by Feature Area - which features have the most defects
+- Average Execution Time by Feature - performance hotspots
 
 Plus a summary metrics bar showing total tests, passed, failed, and pass rate. And a failed tests table at the bottom for quick defect review.
 
 ## Tech stack
 
 - Python 3.10
-- Streamlit — interactive web dashboard
-- Pandas — data processing and grouping
-- Plotly — interactive charts
-- pytest — 10 unit tests
+- Streamlit - interactive web dashboard
+- Pandas - data processing and grouping
+- Plotly - interactive charts
+- pytest - 10 unit tests
 
 ## How to run locally
 
@@ -52,11 +52,11 @@ See sample_data/test_results.csv for a full example.
 
 ## Project structure
 
-- app/main.py — Streamlit dashboard entry point
-- app/data_processor.py — data loading and metrics calculation
-- app/charts.py — Plotly chart definitions
-- sample_data/test_results.csv — realistic sample test data
-- tests/test_processor.py — 10 unit tests for data processor
+- app/main.py - Streamlit dashboard entry point
+- app/data_processor.py - data loading and metrics calculation
+- app/charts.py - Plotly chart definitions
+- sample_data/test_results.csv - realistic sample test data
+- tests/test_processor.py - 10 unit tests for data processor
 
 ## What I learned
 

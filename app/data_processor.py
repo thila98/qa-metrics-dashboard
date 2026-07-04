@@ -4,7 +4,7 @@ import pandas as pd
 def load_data(filepath: str) -> pd.DataFrame:
     """
     Load test results CSV into a pandas DataFrame.
-    A DataFrame is like an Excel spreadsheet in Python —
+    A DataFrame is like an Excel spreadsheet in Python -
     rows and columns you can filter, group, and calculate.
     """
     df = pd.read_csv(filepath)
