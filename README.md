@@ -4,7 +4,7 @@ Interactive QA test quality metrics dashboard built with Streamlit and Pandas. U
 
 ## Live Demo
 
-Coming soon — deploying to Streamlit Cloud
+https://thila98-qa-metrics-dashboard-appmain-kphsza.streamlit.app/
 
 ## What this does
 
